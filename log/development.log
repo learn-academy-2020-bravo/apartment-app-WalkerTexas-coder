@@ -1,0 +1,317 @@
+  [1m[35m (696.5ms)[0m  [1m[35mCREATE DATABASE "devise_and_react_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (302.3ms)[0m  [1m[35mCREATE DATABASE "devise_and_react_app_test" ENCODING = 'unicode'[0m
+  [1m[35m (37.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(466663080893780715)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20200623163347)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (29.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200623163347"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-23 16:41:11.037095"], ["updated_at", "2020-06-23 16:41:11.037095"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(466663080893780715)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-06-23 10:21:04 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+Completed 406 Not Acceptable in 13ms (ActiveRecord: 0.0ms | Allocations: 2566)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#root is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+react-rails (2.6.1) lib/react/rails/controller_lifecycle.rb:31:in `use_react_component_helper'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:139:in `run_callbacks'
+actionpack (6.0.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.2) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-06-23 10:26:02 -0700
+  [1m[35m (26.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  Rendered home/homepage.html.erb within layouts/application (Duration: 3.0ms | Allocations: 463)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/devise_and_react_app/public/packs
+[Webpacker] Hash: 7c6f68d563df63b5db62
+Version: webpack 4.43.0
+Time: 9339ms
+Built at: 06/23/2020 10:26:14 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-8546708e7e2596a316f0.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-8546708e7e2596a316f0.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-a28fcf66b4bab9a1d484.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-a28fcf66b4bab9a1d484.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-6d0838ac943408b290ad.js  1.21 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-6d0838ac943408b290ad.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-8546708e7e2596a316f0.js js/application-8546708e7e2596a316f0.js.map
+Entrypoint hello_react = js/hello_react-a28fcf66b4bab9a1d484.js js/hello_react-a28fcf66b4bab9a1d484.js.map
+Entrypoint server_rendering = js/server_rendering-6d0838ac943408b290ad.js js/server_rendering-6d0838ac943408b290ad.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 183 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 31 hidden modules
+
+Completed 200 OK in 11711ms (Views: 11706.9ms | ActiveRecord: 0.0ms | Allocations: 19563)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 10:26:24 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 598)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 53.3ms | Allocations: 7570)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 116ms (Views: 63.1ms | ActiveRecord: 37.4ms | Allocations: 18117)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-06-23 10:26:26 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"cGHGObvjpCJh68B483CYkvLz1mYza68D3gEJsFt24avOPslRq9RNOvWFk6uyC0KNxMVQjh8ZCMVkJ1do8jUTfw==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 14ms (ActiveRecord: 1.5ms | Allocations: 2691)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"cGHGObvjpCJh68B483CYkvLz1mYza68D3gEJsFt24avOPslRq9RNOvWFk6uyC0KNxMVQjh8ZCMVkJ1do8jUTfw==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 294ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6197)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-06-23 10:26:28 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 197)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 119)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1882)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 6902)
+
+
+Started POST "/users" for ::1 at 2020-06-23 10:26:42 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"kTfk1Yud0jbCIsp6HUWnED54jg/mX3Bwh7P41DRvDpUGpgHoUs6FDWdtmloTvYdbn0rJOcVrBQ6x1gxNVO5pAw==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 219)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 280ms (Views: 11.4ms | ActiveRecord: 1.2ms | Allocations: 13050)
+
+
+Started POST "/users" for ::1 at 2020-06-23 10:26:51 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"5CeV41hmTYJLpwDCLVSaOH7T2aPzYTxUIhZDg1XHoS1/Re5qrU44WkKb/cCh0cKNPTzqajn+v6sAzEm9pZ9ZrA==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "austinsrwalker@gmail.com"], ["encrypted_password", "$2a$12$doDhuup8huAC2PsixytUJuxgRQWhQTEYsORiuseg4P1vGTpoNyp3e"], ["created_at", "2020-06-23 17:26:51.532355"], ["updated_at", "2020-06-23 17:26:51.532355"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 265ms (ActiveRecord: 2.5ms | Allocations: 7473)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:26:51 -0700
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/homepage.html.erb:2
+  Rendered home/homepage.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1058)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 5084)
+
+
+Started GET "/users/sign_out" for ::1 at 2020-06-23 10:26:54 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 3.1ms | Allocations: 2775)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:26:54 -0700
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  Rendered home/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 4230)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 10:26:55 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1039)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 5337)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-06-23 10:27:00 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"DU9wvu+0wsfWaadWQA6oFzeSNpUPAtdSm9XjI1tdZxjnbCmqdKIEa8rgmOmZFsHzIgI85E2rH7U48MpvcnSAfQ==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 271ms (ActiveRecord: 1.4ms | Allocations: 3239)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:27:00 -0700
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/homepage.html.erb:2
+  Rendered home/homepage.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1036)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.5ms | Allocations: 5068)
+
+
+Started GET "/users/sign_out" for ::1 at 2020-06-23 10:27:04 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 3.8ms | Allocations: 2238)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:27:04 -0700
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  Rendered home/homepage.html.erb within layouts/application (Duration: 0.8ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 4234)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 10:30:29 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 131)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 5338)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-06-23 10:30:35 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"XL+KCIlT/7+6hXAGnMQ2clXqfu8wZHk5H0SZSzmgeQ0FOMVzj5Z7EBOpzRc/k0wf/fPc8qWejp1c13EcNX+mwQ==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 249ms (ActiveRecord: 0.4ms | Allocations: 2881)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:30:35 -0700
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/homepage.html.erb:2
+  Rendered home/homepage.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1037)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.5ms | Allocations: 5062)
+
+
+Started GET "/users/sign_out" for ::1 at 2020-06-23 10:32:01 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.5ms | Allocations: 2238)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:32:01 -0700
+Processing by HomeController#root as HTML
+  Rendering home/homepage.html.erb within layouts/application
+  Rendered home/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4227)
+
+
+Started GET "/" for ::1 at 2020-06-23 10:35:18 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 3.9ms | Allocations: 463)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 8174)
+
+
