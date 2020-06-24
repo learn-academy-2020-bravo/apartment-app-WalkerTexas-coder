@@ -315,3 +315,1886 @@ Processing by HomeController#root as HTML
 Completed 200 OK in 37ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 8174)
 
 
+Started GET "/" for ::1 at 2020-06-23 11:03:53 -0700
+  [1m[35m (23.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 6.2ms | Allocations: 463)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 39.6ms | ActiveRecord: 0.0ms | Allocations: 8164)
+
+
+Started GET "/" for ::1 at 2020-06-23 11:13:11 -0700
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 3.3ms | Allocations: 466)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 8184)
+
+
+Started GET "/" for ::1 at 2020-06-23 11:14:02 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.0ms | Allocations: 222)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: dae9ff02c49cfbc08abe
+Version: webpack 4.43.0
+Time: 27078ms
+Built at: 06/23/2020 11:14:32 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-0e08f0c456922b9fa656.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-0e08f0c456922b9fa656.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-aa701ea743e5a8b981cb.js  1.21 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-aa701ea743e5a8b981cb.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-0e08f0c456922b9fa656.js js/application-0e08f0c456922b9fa656.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-aa701ea743e5a8b981cb.js js/server_rendering-aa701ea743e5a8b981cb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 183 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 31 hidden modules
+
+Completed 200 OK in 30001ms (Views: 29999.2ms | ActiveRecord: 0.0ms | Allocations: 5692)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:24:25 -0700
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 3.1ms | Allocations: 463)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 8e88bc2f4eb29e3c7148
+Version: webpack 4.43.0
+Time: 2859ms
+Built at: 06/23/2020 2:24:30 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-b4ad2f9fea1968567504.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-b4ad2f9fea1968567504.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-c41974feb9433b76c250.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-c41974feb9433b76c250.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-b4ad2f9fea1968567504.js js/application-b4ad2f9fea1968567504.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-c41974feb9433b76c250.js js/server_rendering-c41974feb9433b76c250.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+Completed 200 OK in 5273ms (Views: 5267.0ms | ActiveRecord: 0.0ms | Allocations: 9356)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:25:19 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.1ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 5359)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:25:55 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 0.7ms | Allocations: 222)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 527345b60e6b73e0e91f
+Version: webpack 4.43.0
+Time: 2504ms
+Built at: 06/23/2020 2:26:00 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-92be0e45276073b02cdf.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-92be0e45276073b02cdf.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-0c219839c8931ac88d9b.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-0c219839c8931ac88d9b.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-92be0e45276073b02cdf.js js/application-92be0e45276073b02cdf.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-0c219839c8931ac88d9b.js js/server_rendering-0c219839c8931ac88d9b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 4864ms (Views: 4863.4ms | ActiveRecord: 0.0ms | Allocations: 5556)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:26:48 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 2.1ms | Allocations: 222)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 81aff0aab2644f37bdf5
+Version: webpack 4.43.0
+Time: 4115ms
+Built at: 06/23/2020 2:26:55 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-1ff8414a552eb0e43911.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-1ff8414a552eb0e43911.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-76430e7b8f08d5bdff62.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-76430e7b8f08d5bdff62.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-1ff8414a552eb0e43911.js js/application-1ff8414a552eb0e43911.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-76430e7b8f08d5bdff62.js js/server_rendering-76430e7b8f08d5bdff62.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 6924ms (Views: 6921.1ms | ActiveRecord: 0.0ms | Allocations: 5551)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:27:23 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 4.3ms | Allocations: 222)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 70b565c922498a6ad156
+Version: webpack 4.43.0
+Time: 7291ms
+Built at: 06/23/2020 2:27:36 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-034262bfcb7e31a83c09.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-034262bfcb7e31a83c09.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-d9cd69542c2bb120fdb8.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-d9cd69542c2bb120fdb8.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-034262bfcb7e31a83c09.js js/application-034262bfcb7e31a83c09.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-d9cd69542c2bb120fdb8.js js/server_rendering-d9cd69542c2bb120fdb8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module not found: Error: Can't resolve 'Header.js' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/App.js 25:0-31 45:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 12634ms (Views: 12630.0ms | ActiveRecord: 0.0ms | Allocations: 5617)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:27:42 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 16.9ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 42726e6f75d119d6226b
+Version: webpack 4.43.0
+Time: 7984ms
+Built at: 06/23/2020 2:28:00 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-14bbb162655fe9c3e911.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-14bbb162655fe9c3e911.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-f908854b73f1fb5f9672.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-f908854b73f1fb5f9672.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-14bbb162655fe9c3e911.js js/application-14bbb162655fe9c3e911.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-f908854b73f1fb5f9672.js js/server_rendering-f908854b73f1fb5f9672.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module not found: Error: Can't resolve '../Header.js' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/App.js 25:0-34 45:101-107
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 18147ms (Views: 18143.4ms | ActiveRecord: 0.0ms | Allocations: 5682)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:48:02 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.3ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: f82bf5387fe2020329a9
+Version: webpack 4.43.0
+Time: 10488ms
+Built at: 06/23/2020 2:48:19 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-64085dcc99e4b2899d35.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-64085dcc99e4b2899d35.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-0bb78434de86b07cbbb0.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-0bb78434de86b07cbbb0.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-64085dcc99e4b2899d35.js js/application-64085dcc99e4b2899d35.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-0bb78434de86b07cbbb0.js js/server_rendering-0bb78434de86b07cbbb0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 16394ms (Views: 16385.7ms | ActiveRecord: 0.0ms | Allocations: 5578)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:48:58 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 0.7ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 61a2e985f689ccc00a23
+Version: webpack 4.43.0
+Time: 4108ms
+Built at: 06/23/2020 2:49:06 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-772c63bf134e6e1dfcdf.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-772c63bf134e6e1dfcdf.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-ac502ebd0a15c8b50adf.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-ac502ebd0a15c8b50adf.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-772c63bf134e6e1dfcdf.js js/application-772c63bf134e6e1dfcdf.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-ac502ebd0a15c8b50adf.js js/server_rendering-ac502ebd0a15c8b50adf.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 8095ms (Views: 8093.1ms | ActiveRecord: 0.0ms | Allocations: 5538)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:50:00 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.0ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: f82bf5387fe2020329a9
+Version: webpack 4.43.0
+Time: 2882ms
+Built at: 06/23/2020 2:50:06 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-64085dcc99e4b2899d35.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-64085dcc99e4b2899d35.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-0bb78434de86b07cbbb0.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-0bb78434de86b07cbbb0.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-64085dcc99e4b2899d35.js js/application-64085dcc99e4b2899d35.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-0bb78434de86b07cbbb0.js js/server_rendering-0bb78434de86b07cbbb0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 5897ms (Views: 5896.3ms | ActiveRecord: 0.0ms | Allocations: 5561)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:51:20 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 81aff0aab2644f37bdf5
+Version: webpack 4.43.0
+Time: 2156ms
+Built at: 06/23/2020 2:51:25 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-1ff8414a552eb0e43911.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-1ff8414a552eb0e43911.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-76430e7b8f08d5bdff62.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-76430e7b8f08d5bdff62.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-1ff8414a552eb0e43911.js js/application-1ff8414a552eb0e43911.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-76430e7b8f08d5bdff62.js js/server_rendering-76430e7b8f08d5bdff62.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 4959ms (Views: 4958.3ms | ActiveRecord: 0.0ms | Allocations: 5541)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:52:45 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.5ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 1261452007584caa2050
+Version: webpack 4.43.0
+Time: 4055ms
+Built at: 06/23/2020 2:52:53 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-56c401ea497893a4fda7.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-56c401ea497893a4fda7.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-7b1769b72d151c5d2f6c.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-7b1769b72d151c5d2f6c.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-56c401ea497893a4fda7.js js/application-56c401ea497893a4fda7.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-7b1769b72d151c5d2f6c.js js/server_rendering-7b1769b72d151c5d2f6c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 7430ms (Views: 7428.0ms | ActiveRecord: 0.0ms | Allocations: 5557)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:53:27 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 61a2e985f689ccc00a23
+Version: webpack 4.43.0
+Time: 3278ms
+Built at: 06/23/2020 2:53:35 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-772c63bf134e6e1dfcdf.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-772c63bf134e6e1dfcdf.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-ac502ebd0a15c8b50adf.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-ac502ebd0a15c8b50adf.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-772c63bf134e6e1dfcdf.js js/application-772c63bf134e6e1dfcdf.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-ac502ebd0a15c8b50adf.js js/server_rendering-ac502ebd0a15c8b50adf.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 7365ms (Views: 7362.9ms | ActiveRecord: 0.0ms | Allocations: 5563)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 14:54:06 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 3.8ms | Allocations: 595)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 30.9ms | Allocations: 5111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 120ms (Views: 46.1ms | ActiveRecord: 50.0ms | Allocations: 15467)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-06-23 14:54:11 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"mBFaMuPmVYGWti9QZLO/SN75K5IHyjqSagOCQNg0FiQH1rpjTJU8qlVxQDkCxUH1VZuiUDx85a0ufid9oY2vTw==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (7.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 367ms (ActiveRecord: 7.3ms | Allocations: 5450)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:54:12 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1051)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms | Allocations: 5123)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:54:34 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 16.5ms | Allocations: 5345)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 81aff0aab2644f37bdf5
+Version: webpack 4.43.0
+Time: 5746ms
+Built at: 06/23/2020 2:54:42 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-1ff8414a552eb0e43911.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-1ff8414a552eb0e43911.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-76430e7b8f08d5bdff62.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-76430e7b8f08d5bdff62.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-1ff8414a552eb0e43911.js js/application-1ff8414a552eb0e43911.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-76430e7b8f08d5bdff62.js js/server_rendering-76430e7b8f08d5bdff62.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 8859ms (Views: 8853.3ms | ActiveRecord: 4.2ms | Allocations: 10751)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:55:12 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 51.3ms | Allocations: 5331)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 1261452007584caa2050
+Version: webpack 4.43.0
+Time: 5896ms
+Built at: 06/23/2020 2:55:22 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-56c401ea497893a4fda7.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-56c401ea497893a4fda7.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-7b1769b72d151c5d2f6c.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-7b1769b72d151c5d2f6c.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-56c401ea497893a4fda7.js js/application-56c401ea497893a4fda7.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-7b1769b72d151c5d2f6c.js js/server_rendering-7b1769b72d151c5d2f6c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 10157ms (Views: 10124.4ms | ActiveRecord: 30.7ms | Allocations: 10694)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:55:56 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 17.8ms | Allocations: 5355)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 81aff0aab2644f37bdf5
+Version: webpack 4.43.0
+Time: 4230ms
+Built at: 06/23/2020 2:56:05 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-1ff8414a552eb0e43911.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-1ff8414a552eb0e43911.js.map  1.52 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-76430e7b8f08d5bdff62.js  1.22 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-76430e7b8f08d5bdff62.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-1ff8414a552eb0e43911.js js/application-1ff8414a552eb0e43911.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-76430e7b8f08d5bdff62.js js/server_rendering-76430e7b8f08d5bdff62.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 32 hidden modules
+
+ERROR in ./app/javascript/components/Header.js
+Module not found: Error: Can't resolve 'reactstrap' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/Header.js 18:0-197 31:97-103 40:38-49 49:53-66 58:39-47 67:38-41 75:38-45 82:38-45 90:54-61 97:38-45 105:53-62 113:38-47
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 8940ms (Views: 8934.4ms | ActiveRecord: 4.3ms | Allocations: 10685)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:57:55 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 65.1ms | Allocations: 6405)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: 6b1053a1f8d25fcf935e
+Version: webpack 4.43.0
+Time: 22680ms
+Built at: 06/23/2020 2:58:24 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-1630e5aa4761e74fb415.js  2.02 MiB       application  [emitted] [immutable]  application
+     js/application-1630e5aa4761e74fb415.js.map  2.02 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-98f504e62cd99df3953b.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-98f504e62cd99df3953b.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-1630e5aa4761e74fb415.js js/application-1630e5aa4761e74fb415.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-98f504e62cd99df3953b.js js/server_rendering-98f504e62cd99df3953b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 28916ms (Views: 28867.7ms | ActiveRecord: 36.3ms | Allocations: 23126)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:59:41 -0700
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 28.7ms | Allocations: 6405)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2818ms (Views: 2798.3ms | ActiveRecord: 11.1ms | Allocations: 27392)
+
+
+Started GET "/" for ::1 at 2020-06-23 14:59:53 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (24.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 27.9ms | Allocations: 1063)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 24.4ms | ActiveRecord: 24.0ms | Allocations: 5190)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:00:53 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1056)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8080ms (Views: 8077.6ms | ActiveRecord: 0.9ms | Allocations: 76956)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:10:00 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 51.8ms | Allocations: 5370)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-06-23 15:10:11 -0700
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: 4b322dcf02e496666920
+Version: webpack 4.43.0
+Time: 18269ms
+Built at: 06/23/2020 3:10:25 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-b0bf0fa7f76d6fc65a93.js  2.02 MiB       application  [emitted] [immutable]  application
+     js/application-b0bf0fa7f76d6fc65a93.js.map  2.02 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-33fc6d3e3e3a77999ac3.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-33fc6d3e3e3a77999ac3.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-b0bf0fa7f76d6fc65a93.js js/application-b0bf0fa7f76d6fc65a93.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-33fc6d3e3e3a77999ac3.js js/server_rendering-33fc6d3e3e3a77999ac3.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 24651ms (Views: 24644.8ms | ActiveRecord: 2.9ms | Allocations: 17283)
+
+
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 253.0ms | Allocations: 5366)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 306ms (Views: 93.9ms | ActiveRecord: 209.6ms | Allocations: 13053)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:10:37 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 97.9ms | Allocations: 5312)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: 91208c1f5556310c8344
+Version: webpack 4.43.0
+Time: 7723ms
+Built at: 06/23/2020 3:10:53 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-9218f59b6b463d437c0a.js  2.03 MiB       application  [emitted] [immutable]  application
+     js/application-9218f59b6b463d437c0a.js.map  2.03 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-b8fa2f3c0664795f1460.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-b8fa2f3c0664795f1460.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-9218f59b6b463d437c0a.js js/application-9218f59b6b463d437c0a.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-b8fa2f3c0664795f1460.js js/server_rendering-b8fa2f3c0664795f1460.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 15706ms (Views: 15680.3ms | ActiveRecord: 23.8ms | Allocations: 14235)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:11:33 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (35.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 297.2ms | Allocations: 5329)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: c8915f7b64ad96cecc26
+Version: webpack 4.43.0
+Time: 9396ms
+Built at: 06/23/2020 3:11:47 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-2e0ad602ecb255aa92e4.js  2.03 MiB       application  [emitted] [immutable]  application
+     js/application-2e0ad602ecb255aa92e4.js.map  2.03 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-e7c3befd2d920dc5a202.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-e7c3befd2d920dc5a202.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-2e0ad602ecb255aa92e4.js js/application-2e0ad602ecb255aa92e4.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-e7c3befd2d920dc5a202.js js/server_rendering-e7c3befd2d920dc5a202.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 13909ms (Views: 13639.3ms | ActiveRecord: 268.7ms | Allocations: 14257)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:14:05 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 42.5ms | Allocations: 5312)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: d1c91cc7fda8b0530bba
+Version: webpack 4.43.0
+Time: 3814ms
+Built at: 06/23/2020 3:14:11 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-cdaaa9622ccd58e0e615.js  2.02 MiB       application  [emitted] [immutable]  application
+     js/application-cdaaa9622ccd58e0e615.js.map  2.03 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-8027076ff6c918c8941b.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-8027076ff6c918c8941b.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-cdaaa9622ccd58e0e615.js js/application-cdaaa9622ccd58e0e615.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-8027076ff6c918c8941b.js js/server_rendering-8027076ff6c918c8941b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 5843ms (Views: 5816.4ms | ActiveRecord: 25.2ms | Allocations: 14171)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:18:27 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 16.8ms | Allocations: 5344)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: ed3f226e91be7de15c15
+Version: webpack 4.43.0
+Time: 3213ms
+Built at: 06/23/2020 3:18:32 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-ae23fc6a958e5f7b21fa.js  2.02 MiB       application  [emitted] [immutable]  application
+     js/application-ae23fc6a958e5f7b21fa.js.map  2.02 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-dcae37557f6aaf8caf17.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-dcae37557f6aaf8caf17.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-ae23fc6a958e5f7b21fa.js js/application-ae23fc6a958e5f7b21fa.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-dcae37557f6aaf8caf17.js js/server_rendering-dcae37557f6aaf8caf17.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 4859ms (Views: 4854.1ms | ActiveRecord: 4.3ms | Allocations: 14185)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:18:41 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 36.5ms | Allocations: 5312)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: 179b7927dd2fea063789
+Version: webpack 4.43.0
+Time: 3624ms
+Built at: 06/23/2020 3:18:46 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-34e69dfd20613821f7f9.js  2.02 MiB       application  [emitted] [immutable]  application
+     js/application-34e69dfd20613821f7f9.js.map  2.02 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-f27e3d9c008678cd4f40.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-f27e3d9c008678cd4f40.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-34e69dfd20613821f7f9.js js/application-34e69dfd20613821f7f9.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-f27e3d9c008678cd4f40.js js/server_rendering-f27e3d9c008678cd4f40.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 5739ms (Views: 5714.6ms | ActiveRecord: 22.9ms | Allocations: 14117)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(466663080893780715)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateApartments (20200623222238)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (43.5ms)[0m  [1m[35mCREATE TABLE "apartments" ("id" bigserial primary key, "user_id" integer, "street" character varying, "apt_num" integer, "city" character varying, "postal_code" character varying, "state" character varying, "country" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200623222238"]]
+  [1m[35m (26.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(466663080893780715)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mApartment Load (0.4ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(466663080893780715)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (22.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(466663080893780715)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mApartment Load (0.5ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mApartment Load (0.4ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mApartment Create (1.0ms)[0m  [1m[32mINSERT INTO "apartments" ("user_id", "street", "apt_num", "city", "postal_code", "state", "country", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 1], ["street", "1601 blackthorne ave"], ["apt_num", 52], ["city", "San Diego"], ["postal_code", "92101"], ["state", "California"], ["country", "United States"], ["created_at", "2020-06-23 22:27:29.690749"], ["updated_at", "2020-06-23 22:27:29.690749"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mApartment Create (0.4ms)[0m  [1m[32mINSERT INTO "apartments" ("user_id", "street", "apt_num", "city", "postal_code", "state", "country", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 2], ["street", "5555 Maplewood ave"], ["apt_num", 121], ["city", "Escodido"], ["postal_code", "92026"], ["state", "California"], ["country", "United States"], ["created_at", "2020-06-23 22:27:29.697191"], ["updated_at", "2020-06-23 22:27:29.697191"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mApartment Create (0.4ms)[0m  [1m[32mINSERT INTO "apartments" ("user_id", "street", "apt_num", "city", "postal_code", "state", "country", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["user_id", 3], ["street", "45 Cherry St"], ["apt_num", 3], ["city", "Chico"], ["postal_code", "95926"], ["state", "California"], ["country", "United States"], ["created_at", "2020-06-23 22:27:29.702113"], ["updated_at", "2020-06-23 22:27:29.702113"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mApartment Load (0.8ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2020-06-23 15:33:42 -0700
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 194.7ms | Allocations: 6407)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5623ms (Views: 5556.1ms | ActiveRecord: 57.1ms | Allocations: 96970)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:35:08 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 24.4ms | Allocations: 5378)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: d99cf81a7d80c22dac0b
+Version: webpack 4.43.0
+Time: 2717ms
+Built at: 06/23/2020 3:35:13 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-5725c228b587178b7f2a.js  2.02 MiB       application  [emitted] [immutable]  application
+     js/application-5725c228b587178b7f2a.js.map  2.02 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-3fc44f3acaddff188c0b.js  1.91 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-3fc44f3acaddff188c0b.js.map  1.89 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-5725c228b587178b7f2a.js js/application-5725c228b587178b7f2a.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-3fc44f3acaddff188c0b.js js/server_rendering-3fc44f3acaddff188c0b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 212 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 184 hidden modules
+
+Completed 200 OK in 4927ms (Views: 4920.8ms | ActiveRecord: 5.1ms | Allocations: 14319)
+
+
+Started GET "/users/sign_out" for ::1 at 2020-06-23 15:35:17 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (20.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 40ms (ActiveRecord: 20.2ms | Allocations: 4496)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:35:17 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.4ms | Allocations: 219)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 7767)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 15:35:25 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 2.6ms | Allocations: 599)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 21.3ms | Allocations: 3076)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 40.1ms | ActiveRecord: 0.0ms | Allocations: 12130)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-06-23 15:35:30 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ER/JV94kTngggUbYqeoZ925F5m0irTfoO4Mkx1kWMNtUb5DKXeWGBTaTqFGqndVb5kiyRzxWLPOTHkncPqfw4Q==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 251ms (ActiveRecord: 0.4ms | Allocations: 4884)
+
+
+Started GET "/" for ::1 at 2020-06-23 15:35:30 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1044)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.4ms | Allocations: 8527)
+
+
+Started GET "/" for ::1 at 2020-06-24 10:51:18 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 9.2ms | Allocations: 466)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-06-24 10:51:22 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.4ms | Allocations: 211)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 633178d7256e3383beec
+Version: webpack 4.43.0
+Time: 12649ms
+Built at: 06/24/2020 10:51:37 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-4e497b0af55bdc16b2b4.js  2.06 MiB       application  [emitted] [immutable]  application
+     js/application-4e497b0af55bdc16b2b4.js.map  2.06 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-5f9a8d6821de1fc86956.js  1.94 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-5f9a8d6821de1fc86956.js.map  1.92 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-4e497b0af55bdc16b2b4.js js/application-4e497b0af55bdc16b2b4.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-5f9a8d6821de1fc86956.js js/server_rendering-5f9a8d6821de1fc86956.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 188 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Unexpected token, expected "{" (20:6)
+
+  18 |         }
+  19 |     } catch (err)
+> 20 |       console.log(err);
+     |       ^
+  21 |   }
+  22 | }
+  23 | return(
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.unexpected (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8844:16)
+    at Object.expect (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8830:28)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11732:10)
+    at /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11645:64
+    at Object.withTopicForbiddingContext (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11068:14)
+    at Object.parseTryStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11645:26)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11250:21)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseFunctionBodyAndFinish (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10728:10)
+    at /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11908:12
+    at Object.withTopicForbiddingContext (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11068:14)
+    at Object.parseFunction (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11907:10)
+    at Object.parseFunctionStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11539:17)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11316:25)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseArrowExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10714:10)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10332:12)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/ApartmentList.js
+Module not found: Error: Can't resolve 'react-router-dom' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/ApartmentList.js 24:0-40
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 18800ms (Views: 18787.7ms | ActiveRecord: 0.0ms | Allocations: 28589)
+
+
+[Webpacker] Compilation failed:
+Hash: 633178d7256e3383beec
+Version: webpack 4.43.0
+Time: 12767ms
+Built at: 06/24/2020 10:51:39 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-4e497b0af55bdc16b2b4.js  2.06 MiB       application  [emitted] [immutable]  application
+     js/application-4e497b0af55bdc16b2b4.js.map  2.06 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-5f9a8d6821de1fc86956.js  1.94 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-5f9a8d6821de1fc86956.js.map  1.92 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-4e497b0af55bdc16b2b4.js js/application-4e497b0af55bdc16b2b4.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-5f9a8d6821de1fc86956.js js/server_rendering-5f9a8d6821de1fc86956.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 188 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Unexpected token, expected "{" (20:6)
+
+  18 |         }
+  19 |     } catch (err)
+> 20 |       console.log(err);
+     |       ^
+  21 |   }
+  22 | }
+  23 | return(
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.unexpected (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8844:16)
+    at Object.expect (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8830:28)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11732:10)
+    at /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11645:64
+    at Object.withTopicForbiddingContext (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11068:14)
+    at Object.parseTryStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11645:26)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11250:21)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseFunctionBodyAndFinish (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10728:10)
+    at /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11908:12
+    at Object.withTopicForbiddingContext (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11068:14)
+    at Object.parseFunction (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11907:10)
+    at Object.parseFunctionStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11539:17)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11316:25)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseArrowExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10714:10)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10332:12)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/ApartmentList.js
+Module not found: Error: Can't resolve 'react-router-dom' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/ApartmentList.js 24:0-40
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 17613ms (Views: 17612.0ms | ActiveRecord: 0.0ms | Allocations: 12452)
+
+
+Started GET "/" for ::1 at 2020-06-24 10:52:21 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.7ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 96658229124a981dbbc4
+Version: webpack 4.43.0
+Time: 6967ms
+Built at: 06/24/2020 10:52:32 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-335d4dd1145699f2c522.js  2.06 MiB       application  [emitted] [immutable]  application
+     js/application-335d4dd1145699f2c522.js.map  2.06 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-9b18dd85d3762de5ff6e.js  1.94 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-9b18dd85d3762de5ff6e.js.map  1.92 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-335d4dd1145699f2c522.js js/application-335d4dd1145699f2c522.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-9b18dd85d3762de5ff6e.js js/server_rendering-9b18dd85d3762de5ff6e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 188 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Expected corresponding JSX closing tag for <CardTitile> (29:74)
+
+  27 |       <CardBody>
+  28 |         <ListGroup key={ index }>
+> 29 |         <CardTitile id="namestyle">{apartment.street}, {apartment.apt_num}</CardTitle>
+     |                                                                           ^
+  30 |         <CardSubtitle>{apartment.city},{apartment.state}</CardSubtitle>
+  31 | )
+  32 | 
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4620:16)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4646:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4653:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10304:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseReturnStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11560:28)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11241:21)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/ApartmentList.js
+Module not found: Error: Can't resolve 'react-router-dom' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/ApartmentList.js 24:0-40
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 11546ms (Views: 11544.1ms | ActiveRecord: 0.0ms | Allocations: 8986)
+
+
+Started GET "/" for ::1 at 2020-06-24 10:54:02 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 5.5ms | Allocations: 222)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 79564e0f271012dd6c75
+Version: webpack 4.43.0
+Time: 13773ms
+Built at: 06/24/2020 10:54:24 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-89829c6a7f1a06fb4afc.js  2.06 MiB       application  [emitted] [immutable]  application
+     js/application-89829c6a7f1a06fb4afc.js.map  2.06 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-d1a1e299a0a03b972a43.js  1.94 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-d1a1e299a0a03b972a43.js.map  1.92 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-89829c6a7f1a06fb4afc.js js/application-89829c6a7f1a06fb4afc.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-d1a1e299a0a03b972a43.js js/server_rendering-d1a1e299a0a03b972a43.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 188 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Expected corresponding JSX closing tag for <CardTitile> (29:76)
+
+  27 |       <CardBody>
+  28 |         <ListGroup key={ index }>
+> 29 |           <CardTitile id="namestyle">{apartment.street}, {apartment.apt_num}</CardTitle>
+     |                                                                             ^
+  30 |           <CardSubtitle>{apartment.city},{apartment.state}</CardSubtitle>
+  31 |         </ListGroup>
+  32 |       </CardBody>
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4620:16)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4646:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4653:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10304:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseReturnStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11560:28)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11241:21)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/server_rendering.js
+
+ERROR in ./app/javascript/components/ApartmentList.js
+Module not found: Error: Can't resolve 'react-router-dom' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/ApartmentList.js 24:0-40
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/server_rendering.js
+
+Completed 200 OK in 21974ms (Views: 21966.6ms | ActiveRecord: 0.0ms | Allocations: 9001)
+
+
+Started GET "/" for ::1 at 2020-06-24 10:54:43 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.0ms | Allocations: 205)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 7582)
+
+
+Started GET "/apartments" for ::1 at 2020-06-24 10:54:47 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/controllers/apartments_controller.rb:30: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/apartments_controller.rb:30: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/apartments_controller.rb:30: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/apartments_controller.rb:30: syntax error, unexpected end-of-input, expecting `end'
+  [1m[36mApartment Load (37.0ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/apartments" for ::1 at 2020-06-24 10:56:56 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApartmentsController#index as HTML
+  [1m[36mApartment Load (3.5ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments"[0m
+  ↳ app/controllers/apartments_controller.rb:4:in `index'
+Completed 200 OK in 62ms (Views: 31.4ms | ActiveRecord: 10.1ms | Allocations: 8137)
+
+
+Started GET "/" for ::1 at 2020-06-24 10:58:16 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 4.6ms | Allocations: 459)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 21a7a164f4df56602d90
+Version: webpack 4.43.0
+Time: 8528ms
+Built at: 06/24/2020 10:58:32 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-6977e318c04bdc3ded19.js  2.06 MiB       application  [emitted] [immutable]  application
+     js/application-6977e318c04bdc3ded19.js.map  2.06 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-a8e79fd989fbc2854d17.js  1.94 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-a8e79fd989fbc2854d17.js.map  1.92 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-6977e318c04bdc3ded19.js js/application-6977e318c04bdc3ded19.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-a8e79fd989fbc2854d17.js js/server_rendering-a8e79fd989fbc2854d17.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 188 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Expected corresponding JSX closing tag for <CardTitile> (29:76)
+
+  27 |       <CardBody>
+  28 |         <ListGroup key={ index }>
+> 29 |           <CardTitile id="namestyle">{apartment.street}, {apartment.apt_num}</CardTitle>
+     |                                                                             ^
+  30 |           <CardSubtitle>{apartment.city},{apartment.state}</CardSubtitle>
+  31 |         </ListGroup>
+  32 |       </CardBody>
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4620:16)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4646:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4653:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10304:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseReturnStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11560:28)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11241:21)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/components/ApartmentList.js
+Module not found: Error: Can't resolve 'react-router-dom' in '/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components'
+ @ ./app/javascript/components/ApartmentList.js 24:0-40
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 15847ms (Views: 15842.4ms | ActiveRecord: 0.0ms | Allocations: 16823)
+
+
+Started GET "/" for ::1 at 2020-06-24 11:00:37 -0700
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 11.0ms | Allocations: 466)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: 3969415f9d55c3bc6c06
+Version: webpack 4.43.0
+Time: 15173ms
+Built at: 06/24/2020 11:01:00 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-5cc5c76bc5a4588ca505.js  2.17 MiB       application  [emitted] [immutable]  application
+     js/application-5cc5c76bc5a4588ca505.js.map  2.16 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-936ee0c7493365e23ce9.js  2.05 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-936ee0c7493365e23ce9.js.map  2.03 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-5cc5c76bc5a4588ca505.js js/application-5cc5c76bc5a4588ca505.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-936ee0c7493365e23ce9.js js/server_rendering-936ee0c7493365e23ce9.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 199 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Expected corresponding JSX closing tag for <CardTitile> (29:76)
+
+  27 |       <CardBody>
+  28 |         <ListGroup key={ index }>
+> 29 |           <CardTitile id="namestyle">{apartment.street}, {apartment.apt_num}</CardTitle>
+     |                                                                             ^
+  30 |           <CardSubtitle>{apartment.city},{apartment.state}</CardSubtitle>
+  31 |         </ListGroup>
+  32 |       </CardBody>
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4620:16)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElementAt (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4588:32)
+    at Object.jsxParseElement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4646:17)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4653:19)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10304:28)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseReturnStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11560:28)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11241:21)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 22066ms (Views: 22046.5ms | ActiveRecord: 0.0ms | Allocations: 18465)
+
+
+Started GET "/" for ::1 at 2020-06-24 11:01:43 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  Rendered home/root.html.erb within layouts/application (Duration: 1.6ms | Allocations: 221)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: fe554d0b6b699b5068f8
+Version: webpack 4.43.0
+Time: 7413ms
+Built at: 06/24/2020 11:01:55 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-6d61113e1df56e1d5493.js  2.17 MiB       application  [emitted] [immutable]  application
+     js/application-6d61113e1df56e1d5493.js.map  2.16 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-327a10d59c48dc69d232.js  2.05 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-327a10d59c48dc69d232.js.map  2.03 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-6d61113e1df56e1d5493.js js/application-6d61113e1df56e1d5493.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-327a10d59c48dc69d232.js js/server_rendering-327a10d59c48dc69d232.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 199 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Unexpected token (36:0)
+
+  34 |     </>
+  35 | )
+> 36 | 
+     | ^
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.unexpected (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8844:16)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10167:20)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11322:23)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseArrowExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10714:10)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10332:12)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseVar (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11852:26)
+    at Object.parseVarStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11661:10)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11260:21)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 11915ms (Views: 11911.8ms | ActiveRecord: 0.0ms | Allocations: 8967)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-24 11:02:03 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 7.5ms | Allocations: 599)
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 62.0ms | Allocations: 4668)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 243ms (Views: 123.9ms | ActiveRecord: 70.3ms | Allocations: 18309)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-06-24 11:02:06 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"YXw8tRpaZJo1fFAuj1lsQj6kq/hcJcZk8NjzASR0hcCPHC7bAeuwreu6cBPrt7GEaHicWDwFSu0c56PO7UvZGw==", "user"=>{"email"=>"austinsrwalker@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (8.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "austinsrwalker@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 693ms (ActiveRecord: 10.0ms | Allocations: 5315)
+
+
+Started GET "/" for ::1 at 2020-06-24 11:02:06 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 27.9ms | Allocations: 1052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.4ms | Allocations: 8446)
+
+
+Started GET "/apartments" for ::1 at 2020-06-24 11:02:08 -0700
+Processing by ApartmentsController#index as */*
+  [1m[36mApartment Load (14.7ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments"[0m
+  ↳ app/controllers/apartments_controller.rb:4:in `index'
+Completed 200 OK in 115ms (Views: 45.6ms | ActiveRecord: 56.8ms | Allocations: 7715)
+
+
+Started GET "/" for ::1 at 2020-06-24 11:02:47 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (15.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 173.6ms | Allocations: 5336)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: f144820200fc66b2bd2d
+Version: webpack 4.43.0
+Time: 9662ms
+Built at: 06/24/2020 11:03:01 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-a7e34d97f53d8406bfe7.js  2.17 MiB       application  [emitted] [immutable]  application
+     js/application-a7e34d97f53d8406bfe7.js.map  2.16 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-e424cca13c61cd1c9de6.js  2.05 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-e424cca13c61cd1c9de6.js.map  2.03 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-a7e34d97f53d8406bfe7.js js/application-a7e34d97f53d8406bfe7.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-e424cca13c61cd1c9de6.js js/server_rendering-e424cca13c61cd1c9de6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 199 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Unexpected token (36:0)
+
+  34 |     </>
+  35 | )
+> 36 | 
+     | ^
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.unexpected (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8844:16)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10167:20)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11322:23)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseArrowExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10714:10)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10332:12)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseVar (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11852:26)
+    at Object.parseVarStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11661:10)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11260:21)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/application.js
+
+Completed 200 OK in 14228ms (Views: 14111.1ms | ActiveRecord: 114.7ms | Allocations: 14217)
+
+
+Started GET "/apartments" for ::1 at 2020-06-24 11:03:03 -0700
+Processing by ApartmentsController#index as */*
+  [1m[36mApartment Load (23.0ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments"[0m
+  ↳ app/controllers/apartments_controller.rb:4:in `index'
+Completed 200 OK in 80ms (Views: 37.3ms | ActiveRecord: 36.4ms | Allocations: 7117)
+
+
+Started GET "/" for ::1 at 2020-06-24 11:03:33 -0700
+Processing by HomeController#root as HTML
+  Rendering home/root.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/root.html.erb:2
+  Rendered home/root.html.erb within layouts/application (Duration: 263.9ms | Allocations: 5314)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/public/packs
+[Webpacker] Hash: 62676d2e7821f8ae18dd
+Version: webpack 4.43.0
+Time: 9063ms
+Built at: 06/24/2020 11:03:48 AM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-82076362cce4578403b1.js  2.17 MiB       application  [emitted] [immutable]  application
+     js/application-82076362cce4578403b1.js.map  2.16 MiB       application  [emitted] [dev]        application
+         js/hello_react-d5a2f4b5654e012bde27.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d5a2f4b5654e012bde27.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-62e2d81fde4149743168.js  2.05 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-62e2d81fde4149743168.js.map  2.03 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-82076362cce4578403b1.js js/application-82076362cce4578403b1.js.map
+Entrypoint hello_react = js/hello_react-d5a2f4b5654e012bde27.js js/hello_react-d5a2f4b5654e012bde27.js.map
+Entrypoint server_rendering = js/server_rendering-62e2d81fde4149743168.js js/server_rendering-62e2d81fde4149743168.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 298 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 968 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.09 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/amd-options.js] (webpack)/buildin/amd-options.js 80 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 199 hidden modules
+
+WARNING in ./app/javascript/components/ApartmentShow.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/app/javascript/components/ApartmentShow.js: Unexpected token (36:0)
+
+  34 |     </>
+  35 | )
+> 36 | 
+     | ^
+    at Object._raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:754:17)
+    at Object.raiseWithData (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:747:17)
+    at Object.raise (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:741:17)
+    at Object.unexpected (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:8844:16)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10167:20)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9423:23)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11322:23)
+    at Object.parseStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11193:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11768:25)
+    at Object.parseBlockBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11754:10)
+    at Object.parseBlock (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11738:10)
+    at Object.parseFunctionBody (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10745:24)
+    at Object.parseArrowExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10714:10)
+    at Object.parseParenAndDistinguishExpression (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10332:12)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:10044:21)
+    at Object.parseExprAtom (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:4658:20)
+    at Object.parseExprSubscripts (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9693:23)
+    at Object.parseMaybeUnary (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9673:21)
+    at Object.parseExprOps (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9543:23)
+    at Object.parseMaybeConditional (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9516:23)
+    at Object.parseMaybeAssign (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:9471:21)
+    at Object.parseVar (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11852:26)
+    at Object.parseVarStatement (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11661:10)
+    at Object.parseStatementContent (/Users/learnacademy/Desktop/apartment-app-WalkerTexas-coder/node_modules/@babel/parser/lib/index.js:11260:21)
+ @ ./app/javascript/components sync ^\.\/.*$ ./ApartmentShow.js
+ @ ./app/javascript/packs/server_rendering.js
+
+Completed 200 OK in 14995ms (Views: 14912.0ms | ActiveRecord: 81.1ms | Allocations: 14150)
+
+
+Started GET "/apartments" for ::1 at 2020-06-24 11:03:50 -0700
+Processing by ApartmentsController#index as */*
+  [1m[36mApartment Load (12.1ms)[0m  [1m[34mSELECT "apartments".* FROM "apartments"[0m
+  ↳ app/controllers/apartments_controller.rb:4:in `index'
+Completed 200 OK in 100ms (Views: 75.3ms | ActiveRecord: 18.4ms | Allocations: 7160)
+
+
